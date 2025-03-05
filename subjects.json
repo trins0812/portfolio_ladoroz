@@ -1,0 +1,30 @@
+{
+  "year": "1st Year",
+  "semester": "First Semester",
+  "courses": ["Introduction to Computing","Computer Programing 1","Purposive Communication","Reading in The Philippine History","The Contemporary World","Mathematics in the Modern World","Movement Enhancement","ROTC/CWTS/LTS I"]
+},
+{
+  "year": "1st Year",
+  "semester": "Second Semester",
+  "courses": ["Computer Programing 2","Data Structures and Algorithms","Discrete Mathematics","Art Appreciation","Understanding the Self","Fitness Activity and Exercises","Science, Technology and Society","ROTC/CWTS/LTS I"]
+}, 
+{
+ "year": "2nd Year",
+  "semester": "First Semester",
+  "courses": ["Intro to Human Computer Interaction","Fundamentals of Database Systems","Platform Technologies","Object Oriented Programming","Accounting Principles","Physical Activity Towards Health and Fitness 1","Environmental Science"]
+},
+{
+ "year": "2nd Year",
+  "semester": "Second Semester",
+  "courses": ["Information Management","Networking 1","Web Systems and Technolgies","Systems Integration and Architecture","Ethics","Life and Works of Rizal","Physical Activity Towards Health and Fitness 2"]
+},
+{
+ "year": "3rd Year",
+  "semester": "First Semester",
+  "courses": ["Information Assurance and Security","Networking 2","Mobile Programming","Software Engineering","IT Elective 1","Technopreneurship"]
+},
+{
+ "year": "3rd Year",
+  "semester": "Second Semester",
+  "courses": ["CAPSTONE Project and Research 1","Integrative Programming and Technologies","Applications Development and Emerging Technologies","Quantitative Methods","IT Elective 2","Philippine Indigenous Communities and Peace Education","Foreign Language"]
+},
