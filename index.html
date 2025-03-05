@@ -9,29 +9,7 @@
       src="https://kit.fontawesome.com/36b44861e3.js"
       crossorigin="anonymous"
     >
-       <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            fetch("https://trins0812.github.io/portfolio_ladoroz//subjects.json")
-                .then(response => response.json())
-                .then(data => {
-                    const subjectsList = document.getElementById("subjects-list");
-
-                    data.subjects.forEach(year => {
-                        let yearDiv = document.createElement("div");
-                        yearDiv.innerHTML = `<h3>${year.year} - ${year.semester}</h3><ul>`;
-                        
-                        year.courses.forEach(course => {
-                            yearDiv.innerHTML += `<li>${course}</li>`;
-                        });
-
-                        yearDiv.innerHTML += `</ul>`;
-                        subjectsList.appendChild(yearDiv);
-                    });
-                })
-                .catch(error => console.error("Error loading subjects:", error));
-        });
-    </script>
-
+      
     </script>
   </head>
   <body>
@@ -226,5 +204,28 @@
         sidemenu.style.right = "-200px";
       }
     </script>
+     <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            fetch("https://trins0812.github.io/portfolio_ladoroz//subjects.json")
+                .then(response => response.json())
+                .then(data => {
+                    const subjectsList = document.getElementById("subjects-list");
+
+                    data.subjects.forEach(year => {
+                        let yearDiv = document.createElement("div");
+                        yearDiv.innerHTML = `<h3>${year.year} - ${year.semester}</h3><ul>`;
+                        
+                        year.courses.forEach(course => {
+                            yearDiv.innerHTML += `<li>${course}</li>`;
+                        });
+
+                        yearDiv.innerHTML += `</ul>`;
+                        subjectsList.appendChild(yearDiv);
+                    });
+                })
+                .catch(error => console.error("Error loading subjects:", error));
+        });
+    </script>
+
   </body>
 </html>
